@@ -9,3 +9,12 @@ function openLink(type) {
     window.location.href = "mailto:saniyapatel1509@gmail.com";
   }
 }
+function openProject(project) {
+  if (project === "fakejob") {
+    window.open("https://github.com/Saniya1595/fake-job-ai-detector", "_blank");
+  } 
+  else if (project === "contactvault") {
+    window.open("https://github.com/Saniya1595/contactvault-mern", "_blank");
+  }
+}
+

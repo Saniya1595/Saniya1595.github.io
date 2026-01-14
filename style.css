@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(120deg, #1f1c2c, #928dab);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.resume-card {
+  background: white;
+  padding: 25px;
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.title {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.links span {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #6c63ff;
+  font-weight: bold;
+}
+
+.links span:hover {
+  text-decoration: underline;
+}
+
+section {
+  text-align: left;
+  margin-top: 15px;
+}
